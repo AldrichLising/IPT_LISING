@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../docs/CSS/education.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+    <title>EDUCATION</title>
+</head>
+<body>
+    <header>
+        <button onclick="navMenu()" id="navBtn"><i class="fa-solid fa-bars"></i></button>
+        <a href="#" class="logo">Education</a>
+    </header>
+    <div class="navigation">
+        <nav>
+            <ul>
+                <li><a href="../docs/index.html.html">Home</a></li>
+                <li><a href="../docs/About.html">About</a></li>
+                <li><a href="../docs/Education.html">Education</a></li>
+                <li><a href="../docs/index.html.html">Portfolio</a></li>
+                <li><a href="../docs/Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+                <script type="text/javascript">
+                    var counter = 2;
+                    setInterval(function() {
+                        document.getElementById('radio' + counter).checked = true;
+                        counter++
+                        if (counter > 3) {
+                            counter = 1;
+                        }
+                    }, 4000);
+                </script>
+            </div>
+            <div class="ad">
+                <h1 class="typing">My Education!</h1><br>
+                <p id="typing"></p>
+            </div>
+        </div>
+        <div class="profile-pic">
+            <img src="../docs/img/aldrich.png" alt="Profile Picture">
+        </div>
+    </div>
+    <script src="../docs/JS/education.js"></script>
+</body>
+</html>
